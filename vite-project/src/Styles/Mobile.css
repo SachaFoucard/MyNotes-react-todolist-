@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    margin-top: 15px;
+}
+h2{
+    text-align: center;
+}
+header nav li a {
+    text-decoration: none;
+    color: #047BFE;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header nav li a:hover {
+    color: #074b94;
+}
+
+header nav {
+    background-color: white;
+    border-radius: 40px;
+    height: 50px;
+    align-self: center;
+}
+
+header .clm4 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.active a {
+    background-color: #047BFE;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.btn-nav {
+    background-color: #047BFE;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    max-width: 95px;
+    border: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    height: 35px;
+}
+
+.btn-nav:hover {
+    background-color: #0860be;
+}
+
+.window {
+    position: relative;
+    text-align: center;
+    margin-block: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 300px;
+    height: 280px;
+    margin: auto;
+    background-color: rgb(15, 102, 234);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.window .input {
+    align-items: center;
+    margin-top: 20px;
+}
+
+#input {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 200px;
+}
+
+textarea {
+    width: 220px;
+}
+
+.bts-window-close {
+    position: absolute;
+    right: 5%;
+    background-color: red;
+    border: 0;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.btn-send-window {
+    position: absolute;
+    height: 20px;
+    top: 90%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.notes {
+    height: 280px;
+    width: 250px;
+    background-color: #6691c2;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    scrollbar-width: thin;
+    scrollbar-color: #d2a860 #fec89a;
+    margin-top: 20px;
+}
+
+.checkboxes {
+    display: flex;
+    margin-left: 15px;
+}
+
+.notes h1 {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #000000;
+    position: relative;
+    top: -6px;
+    word-wrap: break-word;
+    padding: 5px;
+}
+
+.notes p {
+    font-family: 'Montserrat';
+    word-spacing: 4px;
+    font-size: 19px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    padding-right: 10px;
+}
+
+.notes p::-webkit-scrollbar {
+    width: 11px;
+}
+
+.btn-send-window {
+    left: 36%;
+    top: 80%;
+    background-color: #047BFE;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 0px;
+    height: 35px;
+    width: 80px;
+}
+
+.notes .description {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.date p {
+    font-family: 'Poppins', sans-serif;
+}
+.btn-3 {
+    border: 2px solid #3c73ff;
+    background-color: #3c73ff;
+    border-radius: 20px;
+    color: #fff;
+    transition: .3s;
+  }
+  .btn-3:hover {
+    box-shadow: 8px 8px #99bdff;
+    transition: .3s;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }

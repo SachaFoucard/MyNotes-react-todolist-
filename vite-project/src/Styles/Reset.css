@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(237,241,245);
+    font-family: 'Poppins', sans-serif;
+
+}
+img {
+    max-width: 100%;
+    width: 100ù;
+}
+.grid{
+    display: grid;
+}
